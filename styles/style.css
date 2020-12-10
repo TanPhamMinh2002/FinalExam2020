@@ -1,3 +1,43 @@
-div img {
-    width: 20%;
+img {
+    width: 10%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+section{
+    display:flex;
+    flex-wrap: wrap;
+}
+.displayed-img1{
+    flex: 1 0 20%;
+    order:1;
+}
+.displayed-img2{
+    flex: 1 0 20%;
+    order:2;
+}
+.displayed-img3{
+    flex: 1 0 20%;
+    order:3;
+}
+.displayed-img4{
+    flex: 1 0 20%;
+    order:4;
+}
+.displayed-img5{
+    flex: 1 0 20%;
+    order:5;
+}
+.displayed-img6{
+    flex: 1 0 100%;
+    order:6;
+}
+
+@media screen and (min-width:640px){
+    header p{
+        text-align: left;
+    }
 }
